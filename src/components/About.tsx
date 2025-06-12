@@ -18,19 +18,18 @@ const About: React.FC = () => {
             <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-orange-100 rounded-full">
               <span className="text-orange-500 text-2xl font-bold">01</span>
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-gray-900">Worship</h3>
+            <h3 className="text-xl font-semibold mb-3 text-gray-900">Intercession</h3>
             <p className="text-gray-700">
-              Experience meaningful worship through music, prayer, and Bible-based teaching that glorifies God.
+               The Intercession Ministry at Radiance Of Glory Embassy is a pillar of spiritual strength, dedicated to standing in the gap through fervent prayer and intercession. Rooted in faith and guided by the Holy Spirit, this ministry seeks to uplift individuals, communities, and nations through the power of prayer.
             </p>
           </div>
-          
           <div className="bg-gray-50 rounded-lg p-8 text-center transform transition duration-300 hover:-translate-y-2 hover:shadow-lg cursor-pointer">
             <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-orange-100 rounded-full">
               <span className="text-orange-500 text-2xl font-bold">02</span>
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-gray-900">Community</h3>
+            <h3 className="text-xl font-semibold mb-3 text-gray-900">Worship</h3>
             <p className="text-gray-700">
-              Connect with others through small groups, fellowship events, and ministry opportunities.
+              The Worship Ministry at Radiance Of Glory Embassy is devoted to creating an atmosphere where God’s presence is felt, hearts are transformed, and lives are renewed through passionate, Spirit-led worship. We believe that worship is more than just music—it is a lifestyle of surrender, adoration, and communion with God.
             </p>
           </div>
           
@@ -38,9 +37,9 @@ const About: React.FC = () => {
             <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-orange-100 rounded-full">
               <span className="text-orange-500 text-2xl font-bold">03</span>
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-gray-900">Service</h3>
+            <h3 className="text-xl font-semibold mb-3 text-gray-900">Community</h3>
             <p className="text-gray-700">
-              Extend Christ's love through local outreach, global missions, and caring for those in need.
+            The Community Ministry at Radiance Of Glory Embassy is dedicated to serving, uplifting, and transforming lives through acts of love, compassion, and outreach. We believe that the ministry is not just a place of worship but a beacon of hope, impacting lives beyond its walls.
             </p>
           </div>
         </div>

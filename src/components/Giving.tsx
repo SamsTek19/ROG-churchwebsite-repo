@@ -128,7 +128,7 @@ const Giving: React.FC = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
-                  Children's and youth ministries
+                   Youth ministries
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
