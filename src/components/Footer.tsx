@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>KNUST Queens Hall</li>
               <li>Kumasi, Ghana</li>
-              <li>Phone: +233 551 694 282</li>
+              <li>Phone: +233 539 441 223</li>
               <li>Email: radianceofgloryembassy@gmail.com</li>
             </ul>
           </div>

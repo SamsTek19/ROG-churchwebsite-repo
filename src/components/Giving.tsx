@@ -100,7 +100,7 @@ const Giving: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Mobile Money</h4>
                     <p className="text-gray-700 text-sm">
-                      Text *170# to (+233) 551 694 282 to donate from your mobile device.
+                      Text *170# to (+233) 539 441 223 to donate from your mobile device.
                     </p>
                   </div>
                 </li>

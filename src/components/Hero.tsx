@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-center items-center text-white text-center md:text-left gap-4 md:gap-12">
             <div>
-              <h3 className="font-semibold text-orange-300">Sunday Services</h3>
+              <h3 className="font-semibold text-orange-300">Prayer Meetings</h3>
               <p>9:00 AM & 11:00 AM</p>
             </div>
             <div>

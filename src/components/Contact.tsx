@@ -175,7 +175,7 @@ const Contact: React.FC = () => {
                 <Phone className="h-6 w-6 text-orange-500 mr-4 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-700">+233 551 694 282</p>
+                  <p className="text-gray-700">+233 539 441 223</p>
                 </div>
               </div>
               
@@ -192,7 +192,7 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900">Service Times</h4>
                   <p className="text-gray-700">
-                    Sunday Services: 9:00 AM & 11:00 AM<br />
+                    Prayer Meetings: 9:00 AM & 11:00 AM<br />
                     Wednesday Bible Study: 7:00 PM
                   </p>
                 </div>

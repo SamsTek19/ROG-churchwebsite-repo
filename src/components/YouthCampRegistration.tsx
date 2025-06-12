@@ -3,7 +3,7 @@ import { db } from '../firebase/config';
 import { collection, addDoc } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
 
-const YouthCampRegistration: React.FC = () => {
+const YouthMeetingRegistration: React.FC = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
@@ -29,10 +29,10 @@ const YouthCampRegistration: React.FC = () => {
     setError('');
 
     try {
-      await addDoc(collection(db, 'youthCampRegistrations'), {
+      await addDoc(collection(db, 'youthMeetingRegistrations'), {
         ...formData,
         registrationDate: new Date(),
-        eventName: 'Youth Camp Meetings',
+        eventName: 'Youth Meetings',
         eventDate: 'July 10-14, 2025'
       });
 
@@ -50,9 +50,9 @@ const YouthCampRegistration: React.FC = () => {
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md mx-auto bg-white rounded-lg shadow-md p-8">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900">Youth Camp Registration</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Youth Meeting Registration</h2>
           <div className="w-24 h-1 bg-orange-500 mx-auto my-4"></div>
-          <p className="text-gray-600">July 10-14, 2025</p>
+          <p className="text-gray-600">June 21st, 2025</p>
         </div>
 
         {error && (
@@ -152,4 +152,4 @@ const YouthCampRegistration: React.FC = () => {
   );
 };
 
-export default YouthCampRegistration; 
+export default YouthMeetingRegistration; 
