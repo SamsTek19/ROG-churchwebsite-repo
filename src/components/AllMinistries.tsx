@@ -8,7 +8,7 @@ const ministries = [
     description: "Our intercessory prayer ministry is dedicated to lifting up the needs of our congregation, community, and world before God. Through organized prayer meetings, prayer chains, and individual intercession, we stand in the gap for others.",
     icon: <BookOpen className="h-10 w-10 text-orange-500" />,
     image: "https://res.cloudinary.com/dzydzt8x8/image/upload/v1748223355/IMG_0024_wnegrg.jpg",
-    meetingTimes: "Every Tuesday at 6:30 PM"
+    meetingTimes: "Every Saturday at 6:45 PM"
   },
   {
     id: 2,
@@ -16,7 +16,6 @@ const ministries = [
     description: "Our vibrant youth ministry helps teens grow in their faith through weekly gatherings, small groups, service projects, and fun activities. We focus on building strong foundations in Christ while addressing real-life challenges young people face today.",
     icon: <Users className="h-10 w-10 text-orange-500" />,
     image: "https://res.cloudinary.com/dzydzt8x8/image/upload/v1748225937/IMG_9963_rlw3ki.jpg",
-    meetingTimes: "Fridays at 5:00 PM"
   },
   {
     id: 3,
@@ -24,7 +23,7 @@ const ministries = [
     description: "Our worship team leads the congregation in meaningful praise and worship through music, creating an atmosphere where people can encounter God's presence. We incorporate both contemporary and traditional elements in our worship experience.",
     icon: <Music className="h-10 w-10 text-orange-500" />,
     image: "https://res.cloudinary.com/dzydzt8x8/image/upload/v1748224424/IMG_0005_yltbrv.jpg",
-    meetingTimes: "Practice: Thursdays at 6:00 PM"
+    meetingTimes: "Every Saturday at 6:30 PM"
   },
   {
     id: 4,
@@ -40,7 +39,7 @@ const ministries = [
     description: "A dedicated team committed to spiritual warfare and intercession, meeting regularly to pray for the church, its members, and specific prayer requests from the congregation.",
     icon: <Church className="h-10 w-10 text-orange-500" />,
     image: "https://images.pexels.com/photos/267559/pexels-photo-267559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    meetingTimes: "Wednesday mornings at 5:30 AM"
+    meetingTimes: "First Friday Of Every Month"
   },
   {
     id: 10,
@@ -48,7 +47,7 @@ const ministries = [
     description: "Small group Bible studies meeting throughout the week to dive deeper into God's Word, foster fellowship, and encourage spiritual growth.",
     icon: <BookOpenText className="h-10 w-10 text-orange-500" />,
     image: "https://images.pexels.com/photos/5905498/pexels-photo-5905498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    meetingTimes: "Various times throughout the week"
+    meetingTimes: "Every Saturday at 6:00 PM"
   }
 ];
 

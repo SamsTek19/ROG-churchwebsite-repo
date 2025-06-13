@@ -48,7 +48,7 @@ const About: React.FC = () => {
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">About Our Church</h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Founded in 2024, Radiance Of Glory Embassy has been a beacon of hope and faith in our community for a year now. 
+              Founded in 17th June 2024, Radiance Of Glory Embassy has been a beacon of hope and faith in our community for a year now. 
               Our congregation is made up of people from all walks of life, united by our love for God and desire to grow spiritually.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">

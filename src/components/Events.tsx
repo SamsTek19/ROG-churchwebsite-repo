@@ -11,24 +11,24 @@ const events = [
     time: '9am to 12pm',
     location: 'KNUST Queens Hall',
     description: 'A time of fellowship, and spiritual growth for young and old people.',
-    image: 'https://images.pexels.com/photos/939702/pexels-photo-939702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: 'https://res.cloudinary.com/dzydzt8x8/image/upload/v1749756234/WhatsApp_Image_2025-04-27_at_23.10.36_ae45fb08_vg4h6s.jpg'
   },
   {
     id: 1,
     title: 'Prayer Meetings',
-    date: 'Every Sunday',
-    time: '9:00 AM & 11:00 AM',
-    location: 'Main Sanctuary',
-    description: 'Join us for praise, worship, and an inspiring message from Prophet Micheal Agyemang.',
-    image: 'https://images.pexels.com/photos/267559/pexels-photo-267559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    date: 'Every Saturday',
+    time: '6:30 PM',
+    location: 'KNUST Parade Ground',
+    description: 'Join us for intercessory prayers and an inspiring message from Prophet Micheal Agyemang.',
+    image: 'https://res.cloudinary.com/dzydzt8x8/image/upload/v1749756183/IMG_9687_v0oocp.jpg'
   },
   {
     id: 4,
     title: 'Bible Study',
-    date: 'Every Tuesday',
-    time: '7:00 PM',
-    location: 'Parade Ground',
-    description: 'Join us for our weekly womens Bible study as we explore the book of James.',
+    date: 'Every Saturday',
+    time: '6:00 PM',
+    location: 'KNUST Parade Ground',
+    description: 'Join us for our cell Bible study as we explore and learn the word of God.',
     image: 'https://images.pexels.com/photos/267559/pexels-photo-267559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   },
   {
