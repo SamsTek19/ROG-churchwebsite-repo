@@ -4,7 +4,7 @@ import { Users, BookOpen, Heart, Music, Church, BookOpenText } from 'lucide-reac
 const ministries = [
   {
     id: 1,
-    title: "Intercessory Prayer Ministry",
+    title: "Intercessory Ministry",
     description: "Our intercessory prayer ministry is dedicated to lifting up the needs of our congregation, community, and world before God. Through organized prayer meetings, prayer chains, and individual intercession, we stand in the gap for others.",
     icon: <BookOpen className="h-10 w-10 text-orange-500" />,
     image: "https://res.cloudinary.com/dzydzt8x8/image/upload/v1748223355/IMG_0024_wnegrg.jpg",

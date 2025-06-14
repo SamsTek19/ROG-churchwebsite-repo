@@ -1,6 +1,13 @@
 import React from 'react';
 
 const Hero: React.FC = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -22,18 +29,18 @@ const Hero: React.FC = () => {
           Join us in worship, fellowship, and service as we grow together in faith.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <a 
-            href="#events" 
+          <button 
+            onClick={() => scrollToSection('events')}
             className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-lg transition-all duration-300 focus:ring-2 focus:ring-orange-300"
           >
             Upcoming Events
-          </a>
-          <a 
-            href="#about" 
+          </button>
+          <button 
+            onClick={() => scrollToSection('about')}
             className="px-6 py-3 bg-white/20 hover:bg-white/30 text-white font-medium rounded-lg transition-all duration-300 backdrop-blur-sm"
           >
             Learn More
-          </a>
+          </button>
         </div>
       </div>
       

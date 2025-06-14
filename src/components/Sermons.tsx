@@ -35,16 +35,23 @@ const SermonCard: React.FC<{sermon: typeof sermons[0]}> = ({ sermon }) => {
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl h-full flex flex-col">
       <div className="relative h-48 overflow-hidden group">
-        <img 
-          src={sermon.image} 
-          alt={sermon.title} 
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <button className="w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center">
-            <Play className="h-6 w-6 text-white" fill="white" />
-          </button>
-        </div>
+        <a 
+          href="https://www.youtube.com/@radianceofgloryembassy"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block h-full"
+        >
+          <img 
+            src={sermon.image} 
+            alt={sermon.title} 
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <button className="w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center">
+              <Play className="h-6 w-6 text-white" fill="white" />
+            </button>
+          </div>
+        </a>
       </div>
       <div className="p-6 flex flex-col flex-grow">
         <span className="text-orange-500 font-medium text-sm mb-2">{sermon.scripture}</span>
@@ -70,7 +77,7 @@ const Sermons: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Recent Sermons</h2>
           <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-700">
-            Missed a Sunday? Catch up on our recent messages or revisit your favorites.
+            Missed a meeting or program? Catch up on our recent messages or revisit your favorites.
           </p>
         </div>
         

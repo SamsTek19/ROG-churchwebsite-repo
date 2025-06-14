@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const programs = [
   {
     id: 1,
-    title: "Intercessory Prayer Ministry",
+    title: "Intercessory Ministry",
     description: "Our intercessory prayer ministry is a pillar of spiritual strength, dedicated to standing in the gap through fervent prayer and intercession. We believe in the transformative power of prayer to bring healing, breakthrough, and divine alignment. Our vision is to To raise a generation of committed intercessors who will pray with authority, faith, and compassion—ushering in God's presence and glory in every sphere of life.",
     icon: <BookOpen className="h-10 w-10 text-orange-500" />,
     image: "https://res.cloudinary.com/dzydzt8x8/image/upload/v1748223355/IMG_0024_wnegrg.jpg"
@@ -27,7 +27,7 @@ const programs = [
   {
     id: 4,
     title: "Outreach & Missions",
-    description: "We're committed to sharing God's love both locally and globally through various outreach initiatives, community service, and mission trips.At Radiance Of Glory Embassy, our Outreach & Missions Ministry is dedicated to spreading God’s love beyond the church walls—impacting lives, restoring hope, and transforming communities through compassionate service and evangelism.",
+    description: "We're committed to sharing God's love both locally and globally through various outreach initiatives, community service, and mission trips.At Radiance Of Glory Embassy, our Outreach & Missions Ministry is dedicated to spreading God's love beyond the church walls—impacting lives, restoring hope, and transforming communities through compassionate service and evangelism.",
     icon: <Heart className="h-10 w-10 text-orange-500" />,
     image: "https://res.cloudinary.com/dzydzt8x8/image/upload/v1748224564/PXL_20241130_143414395_Radiant_Photo_ovjskh.jpg"
   }
@@ -85,6 +85,7 @@ const Programs: React.FC = () => {
         <div className="mt-8 text-center">
           <Link 
             to="/ministries" 
+            onClick={() => window.scrollTo(0, 0)}
             className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-lg transition-colors"
           >
             View All Ministries

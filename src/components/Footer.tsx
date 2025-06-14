@@ -64,23 +64,18 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="hover:text-orange-500 transition-colors">
+                <Link to="/" onClick={() => window.scrollTo(0, 0)} className="hover:text-orange-500 transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-orange-500 transition-colors">
+                <Link to="/about" onClick={() => window.scrollTo(0, 0)} className="hover:text-orange-500 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/events" className="hover:text-orange-500 transition-colors">
+                <Link to="/events" onClick={() => window.scrollTo(0, 0)} className="hover:text-orange-500 transition-colors">
                   Events
-                </Link>
-              </li>
-              <li>
-                <Link to="/programs" className="hover:text-orange-500 transition-colors">
-                  Programs
                 </Link>
               </li>
             </ul>
@@ -90,17 +85,17 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/sermons" className="hover:text-orange-500 transition-colors">
+                <Link to="/sermons" onClick={() => window.scrollTo(0, 0)} className="hover:text-orange-500 transition-colors">
                   Sermons
                 </Link>
               </li>
               <li>
-                <Link to="/giving" className="hover:text-orange-500 transition-colors">
+                <Link to="/giving" onClick={() => window.scrollTo(0, 0)} className="hover:text-orange-500 transition-colors">
                   Giving
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-orange-500 transition-colors">
+                <Link to="/contact" onClick={() => window.scrollTo(0, 0)} className="hover:text-orange-500 transition-colors">
                   Contact
                 </Link>
               </li>

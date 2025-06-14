@@ -34,9 +34,9 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/youth-camp-registration" element={<YouthCampRegistration />} />
+            <Route path="/OneYearAnniversary" element={<YouthCampRegistration />} />
             <Route path="/events" element={<Events />} />
             <Route path="/about" element={<About />} />
-            <Route path="/programs" element={<Programs />} />
             <Route path="/ministries" element={<AllMinistries />} />
             <Route path="/sermons" element={<Sermons />} />
             <Route path="/giving" element={<Giving />} />

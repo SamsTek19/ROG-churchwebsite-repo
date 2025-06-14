@@ -8,7 +8,7 @@ const About: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Mission & Vision</h2>
           <div className="w-24 h-1 bg-orange-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Radiance Of Glory Embassy exists to glorify God by making disciples who love God,
+            Radiance Of Glory Embassy is a non-denominational organisation that exists to glorify God by making disciples who love God,
             love one another, and serve our community with the transformative message of Jesus Christ.
           </p>
         </div>
@@ -46,9 +46,9 @@ const About: React.FC = () => {
         
         <div className="mt-16 md:mt-24 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">About Our Church</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">About The Church</h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Founded in 17th June 2024, Radiance Of Glory Embassy has been a beacon of hope and faith in our community for a year now. 
+              Founded in 17th June 2024, Radiance Of Glory Embassy is a non denominational organisation that has been a beacon of hope and faith in our community for a year now. 
               Our congregation is made up of people from all walks of life, united by our love for God and desire to grow spiritually.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
@@ -56,7 +56,7 @@ const About: React.FC = () => {
               Our services combine reverent worship with practical, Bible-based teaching that connects with everyday life.
             </p>
             <a href="#contact" className="inline-block mt-4 text-orange-500 hover:text-orange-600 font-medium">
-              Visit Us This Sunday →
+              Visit Us This Saturday →
             </a>
           </div>
           <div className="md:w-1/2 rounded-lg overflow-hidden shadow-lg">

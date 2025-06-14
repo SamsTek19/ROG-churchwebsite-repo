@@ -6,7 +6,7 @@ import { useNavigate, Link, useLocation } from 'react-router-dom';
 const events = [
   {
     id: 3,
-    title: 'Youth Meetings',
+    title: 'One Year Anniversary',
     date: 'June 21, 2025',
     time: '9am to 12pm',
     location: 'KNUST Queens Hall',
@@ -43,8 +43,8 @@ const EventCard: React.FC<{event: typeof events[0]}> = ({ event }) => {
   const navigate = useNavigate();
 
   const handleLearnMore = (eventTitle: string) => {
-    if (eventTitle === 'Youth Meetings') {
-      navigate('/youth-camp-registration');
+    if (eventTitle === 'One Year Anniversary') {
+      navigate('/OneYearAnniversary');
     }
   };
 
@@ -80,7 +80,7 @@ const EventCard: React.FC<{event: typeof events[0]}> = ({ event }) => {
           )}
           <p className="text-gray-700 text-sm">{event.description}</p>
         </div>
-        {event.title === 'Youth Meetings' && (
+        {event.title === 'One Year Anniversary' && (
           <a 
             href="#" 
             onClick={(e) => {
@@ -122,6 +122,9 @@ const Events: React.FC = () => {
           <div className="mt-12 text-center">
             <Link 
               to="/events" 
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
               className="inline-block px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-lg transition-colors"
             >
               View All Events

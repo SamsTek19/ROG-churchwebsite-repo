@@ -204,7 +204,7 @@ const Contact: React.FC = () => {
               <p className="text-gray-700">
                 Monday - Friday: 9:00 AM - 5:00 PM<br />
                 Saturday: Closed<br />
-                Sunday: 8:00 AM - 1:00 PM
+                Sunday: Closed
               </p>
             </div>
           </div>
