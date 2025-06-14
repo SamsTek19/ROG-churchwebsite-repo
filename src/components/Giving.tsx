@@ -23,7 +23,7 @@ const Giving: React.FC = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3 text-gray-900">Tithes & Offerings</h3>
             <p className="text-gray-700 mb-4">
-              Support the regular operations and ministries of our church through your faithful giving.
+              Support the regular operations and ministries of our ministry through your faithful giving.
             </p>
             <a 
               href={PAYSTACK_URL}
@@ -39,9 +39,9 @@ const Giving: React.FC = () => {
             <div className="mx-auto mb-4 w-16 h-16 flex items-center justify-center bg-orange-100 rounded-full">
               <DollarSign className="h-8 w-8 text-orange-500" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 text-gray-900">Building Fund</h3>
+            <h3 className="text-xl font-semibold mb-3 text-gray-900">Programs</h3>
             <p className="text-gray-700 mb-4">
-              Contribute to our building expansion project to accommodate our growing congregation.
+              Give to support our programs. Every contribution, big or small, makes a difference. Whether it’s funding youth programs, missions, or church initiatives, your support enables us to reach more people and create lasting change.
             </p>
             <a 
               href={PAYSTACK_URL}
@@ -59,7 +59,8 @@ const Giving: React.FC = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3 text-gray-900">Recurring Giving</h3>
             <p className="text-gray-700 mb-4">
-              Set up automated recurring donations on a schedule that works for you.
+             Recurring giving allows you to support our ministry effortlessly, ensuring that our outreach, worship, and community programs continue to thrive.
+             By setting up a monthly, weekly, or quarterly donation, you help sustain vital initiatives such as missions, youth development, and local outreach. Your ongoing support enables us to plan effectively, expand our impact, and reach more lives with God’s love.
             </p>
             <a 
               href={PAYSTACK_URL}
@@ -124,7 +125,7 @@ const Giving: React.FC = () => {
               <ul className="space-y-2 text-gray-700 mb-6">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
-                  Weekly worship services and pastoral care
+                  Weekly worship services
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
@@ -132,15 +133,11 @@ const Giving: React.FC = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
-                  Community outreach and assistance programs
+                  Community outreach and programs
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
                   Local and global missions
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-orange-500 rounded-full mr-2"></span>
-                  Building maintenance and improvements
                 </li>
               </ul>
               <p className="text-gray-700 italic">
