@@ -211,10 +211,17 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="mt-12 bg-white rounded-lg overflow-hidden shadow-lg h-96">
-          <iframe src="https://www.google.com/maps/place/Royal+Parade+Grounds/@6.6767576,-1.5759513,17z/data=!4m6!3m5!1s0xfdb946eb08b88a9:0x5b2fa6f4a8d83500!8m2!3d6.6767576!4d-1.5733764!16s%2Fg%2F11g72nhf0l?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D" width="600" height="450" style={{border:0}} allowFullScreen title="Google Maps" className="w-full h-full"></iframe>
-          <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-            <p className="text-gray-600 text-center p-4">Interactive map would be displayed here.<br />For privacy and loading time reasons, it's represented as a placeholder.</p>
-          </div>
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.6767576!2d-1.5759513!3d6.6767576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb946eb08b88a9%3A0x5b2fa6f4a8d83500!2sRoyal%20Parade%20Grounds!5e0!3m2!1sen!2sgh!4v1710000000000!5m2!1sen!2sgh"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Google Maps"
+            className="w-full h-full"
+          ></iframe>
         </div>
       </div>
     </section>
