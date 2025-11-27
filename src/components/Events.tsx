@@ -6,21 +6,12 @@ import { useNavigate, Link, useLocation } from 'react-router-dom';
 const events = [
   {
     id: 3,
-<<<<<<< HEAD
     title: 'The Mystery Of The Blood',
     date: 'January 1, 2026 - January 2, 2026',
-    time: 'Evening Service: 6:30 PM morning Service: 9:00 AM',
+    time: 'Evening Service: 6:30 PM, Morning Service: 9:00 AM',
     location: 'Mampong Abrukutuaso Methodist Church',
     description: 'A time of fellowship, and spiritual growth for young and old people. We will be studying the mystery of the blood and how it is important to our faith.',
     image: 'https://res.cloudinary.com/dzydzt8x8/image/upload/v1764250926/mys_ooekqp.jpg'
-=======
-    title: 'The Nations Awakening',
-    date: 'July 1, 2025',
-    time: '9am to 12pm',
-    location: 'KNUST Botanical Gardens',
-    description: 'A time of fellowship, and spiritual growth for young and old people.',
-    image: 'https://res.cloudinary.com/dzydzt8x8/image/upload/v1750210869/nat_riibtu.jpg'
->>>>>>> 6e1474684bed9a3b0f3ac2f54305359850ab7f41
   },
   {
     id: 1,
@@ -42,18 +33,12 @@ const events = [
   },
   {
     id: 2,
-<<<<<<< HEAD
-    title: 'The Esthers Mandate',
+    title: "The Esther's Mandate",
     date: 'Monday, Wednesday & Friday',
     time: '8:00 PM',
     location: 'Online',
-    description: 'The Esthers mandate is when laies meet to interceed, grow and learn to be better wifes. For more enquiries contact: +233 55 252 1729 / +233 25 621 4515',
+    description: "The Esther's Mandate is when ladies meet to intercede, grow, and learn to be better wives. For more enquiries contact: +233 55 252 1729 / +233 25 621 4515",
     image: 'https://res.cloudinary.com/dzydzt8x8/image/upload/v1764253212/IMG_0001_vl3l3g.jpg'
-=======
-    title: 'Community Outreach',
-    description: 'Volunteer to help with our quarterly community service event. We will be providing meals, clothing, and resources to those in need.',
-    image: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
->>>>>>> 6e1474684bed9a3b0f3ac2f54305359850ab7f41
   }
 ];
 
