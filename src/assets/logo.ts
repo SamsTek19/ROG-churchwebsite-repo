@@ -1,0 +1,1 @@
+export const CHURCH_LOGO = 'https://res.cloudinary.com/dzydzt8x8/image/upload/e_background_removal/f_png/v1748218932/20240501_090345_copy_r2ed5u.png'; 
